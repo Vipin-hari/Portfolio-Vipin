@@ -1,0 +1,52 @@
+.mini-projects-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .mini-projects-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mini-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .mini-project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .mini-project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .mini-project-card h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .mini-project-card p {
+    margin: 0.5rem 0;
+    color: #666;
+  }
+  
+  .mini-project-card a {
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .mini-project-card a:hover {
+    text-decoration: underline;
+  }
+  

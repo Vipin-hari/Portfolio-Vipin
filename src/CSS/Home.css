@@ -1,0 +1,139 @@
+/* src/CSS/Home.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styling for the home section */
+  #home {
+    margin-top: 90px;
+    background-image: url("../assets/homebg.png");
+    background-repeat: no-repeat;
+    background-color: rgba(255, 253, 253, 0.815);
+    background-blend-mode: lighten;
+    background-size: cover;
+    height: 80vh;
+    width: 97%;
+  }
+  
+  /* Styling for the heading with fade-in effect */
+  h1 {
+    color: #ff2f00;
+    animation: fadeIn 3s ease-out;
+  }
+  
+  /* Container for the home content */
+  .home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 1rem;
+    background: #f0f0f0;
+    text-align: left;
+  }
+  
+  /* Profile image section */
+  .profile-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Text content section */
+  .text-section {
+    flex: 2;
+    padding: 2rem;
+  }
+  
+  /* Profile image styling */
+  .profile-image {
+    width: 80%;
+    height: auto;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* border: #333 solid; */
+    /* -webkit-filter: drop-shadow(1px 1px 0 black)
+    drop-shadow(-1px -1px 0 black);
+filter: drop-shadow(1px 1px 0 black) 
+drop-shadow(-1px -1px 0 black); */
+  }
+  .profile-image:hover{
+    transform: scale(105%) ;
+    cursor: pointer;
+  }
+  /* Social icons section */
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* Icon styling */
+  .icon {
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s;
+  }
+  .para{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .head{
+    font-size: 25px;
+  }
+  
+  /* Icon hover effect */
+  .icon:hover {
+    color: #ff2f00;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 0px;
+      height: 240vh;
+    }
+  .image-container{
+    padding: 5px;
+  }
+    .text-section {
+      padding: 1rem;
+    }
+  
+    .profile-image {
+      width: 50%;
+      height: auto;
+    }
+  
+    #home {
+      width: 100%;
+    }
+    .profile-image {
+        width: 80%;
+        height: auto;
+        border-bottom-right-radius: 90%;
+        border-bottom-left-radius: 90px; /* Adjust this as needed */
+        object-fit: cover; /* Ensures the image covers the area */
+      }
+      #home{
+        height: 100vh;
+      }
+      .profile-image{
+        height: 80%;
+      }
+  }
+  

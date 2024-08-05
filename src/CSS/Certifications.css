@@ -1,0 +1,19 @@
+/* src/CSS/Certifications.css */
+
+.certifications-section {
+    padding: 2rem;
+    background: #f0f0f0;
+    text-align: center;
+  }
+  
+  .certifications-section h2 {
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .certifications-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
