@@ -2,6 +2,7 @@ import Wefoodo from "./WeFooDo.png"
 import resto from "./resto.png"
 import movie from "./movie.png"
 import zord from "./zord.png"
+import crm from "./crm.png"
 export const projectsData = [
     {
       id: 1,
@@ -27,11 +28,11 @@ export const projectsData = [
       repo:"https://github.com/Vipin-hari/React-Moviesearch.git",
       description:"This application is inspired by the official IMDb website and allows users to search for movie details, including directors and cast members."
     },
-    // {
-    //   id: 4,
-    //   title: "E-commerce site for fashion",
-    //   tech: "React JS, Solidity, Web3.js",
-    //   image: zord,
-    // },
+    {
+      id: 4,
+      title: "CRM",
+      tech: "Python Flask, SqlAlchemy",
+      image: crm,
+    },
   ];
   
