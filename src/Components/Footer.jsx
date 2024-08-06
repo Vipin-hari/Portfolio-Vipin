@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import { Link } from 'react-scroll';
 import '../CSS/Footer.css';
@@ -15,22 +14,22 @@ function Footer() {
         </div>
         <div className="footer-contact">
           <h3>Contact</h3>
-          <p>Email: vipin@example.com</p>
-          <p>Phone: +123 456 7890</p>
+          <div className="contact-info">
+            <a href="mailto:vipinganesan2003@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-icon">
+              <i className="fa-solid fa-envelope"></i> vipinganesan2003@gmail.com
+            </a>
+            <a href="tel:+919600712774" target="_blank" rel="noopener noreferrer" className="contact-icon">
+              <i className="fa-solid fa-phone"></i> +91 9600712774
+            </a>
+          </div>
         </div>
         <div className="footer-social">
           <h3>Follow Me</h3>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/vipin-g/" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <i className="fab fa-linkedin contact-icon"></i>
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://github.com/Vipin-hari" target="_blank" rel="noopener noreferrer" className="social-icon">
             <i className="fab fa-github"></i>
-          </a>
-          <a href="https://tumblr.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-            <i className="fab fa-tumblr"></i>
           </a>
         </div>
         <div className="footer-links">
@@ -39,12 +38,13 @@ function Footer() {
             <li><Link to="home" smooth={true} duration={1000}>Home</Link></li>
             <li><Link to="about" smooth={true} duration={1000}>About</Link></li>
             <li><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
+            <li><Link to="mini-projects" smooth={true} duration={1000}>Mini-Projects</Link></li>
             <li><Link to="contact" smooth={true} duration={1000}>Contact</Link></li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Vipin. All rights reserved.</p>
+        <p>&copy; 2024 Vipin.</p>
       </div>
     </footer>
   );

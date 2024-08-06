@@ -43,8 +43,9 @@
   }
   
   .project-details p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #2d2b2b;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .reverse {
@@ -52,8 +53,37 @@
   }
   
   .reverse .project-details {
-    text-align: right;
+    text-align: left;
   }
+  .reverse .project-details p {
+    text-align: left; /* Ensure <p> tags are aligned right in reverse */
+  }
+  .reverse .project-details h2 {
+    text-align: left; /* Ensure <p> tags are aligned right in reverse */
+  }
+  /* .reverse .project-details .project-link{
+    display: flex;
+    justify-content: flex-start;
+  } */
+  
+ /* src/CSS/ProjectCard.css */
+.project-details .project-link {
+  color:aliceblue; /* Default link color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-decoration 0.3s;
+  background-color:#ff2f00;
+  padding: 8px;
+  border-radius: 2px;
+  
+}
+
+.project-details .project-link:hover {
+  color: #ff2f00; 
+  background-color: rgb(238, 241, 243);
+
+}
+
   
   /* Media queries for responsiveness */
   @media (max-width: 768px) {
@@ -75,5 +105,9 @@
     .reverse .project-details {
       text-align: center;
     }
+    .reverse .project-details p {
+      text-align: left; 
+    }
+    
   }
   

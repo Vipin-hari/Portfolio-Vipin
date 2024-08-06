@@ -19,7 +19,7 @@ const MiniProjects = () => {
   ];
 
   return (
-    <div className="mini-projects-section">
+    <div className="mini-projects-section" id='mini-projects'>
       <h2>Mini Projects</h2>
       <div className="mini-projects-container">
         {projects.map((project, index) => (

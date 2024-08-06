@@ -21,9 +21,7 @@
   border-radius: 3px;
 
 }
-.nav-btn:hover{
-  animation: alternate backwards;
-}
+
   .navbar-container {
     display: flex;
     justify-content: space-around;
@@ -62,7 +60,8 @@
   .nav-item a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: color 0.3s ease;
     cursor: pointer;
   }
@@ -70,12 +69,31 @@
   .nav-item a:hover {
     color: #ffd700;
   }
+
+/* src/CSS/YourStyles.css */
+
+/* .download-btn {
+  border-bottom-right-radius: 10px;
+  border: 1px solid transparent;
+  background: none;
+  color: #ff2f00;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.download-btn .nav-btn:hover {
+  background-color: #ff2f00; 
+  color: #fff;
+} */
+
+
   button{
     cursor: pointer;
-    
+    padding: 6px;
+    font-size: 1.2rem;
   }
   /* Mobile responsive styles */
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     .menu-icon {
       display: block;
     }

@@ -1,9 +1,7 @@
-// src/components/CertificationCard.jsx
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../CSS/CertificationCard.css';
 
-const CertificationCard = ({ title, issuer, date, image,link }) => {
+const CertificationCard = ({ title, issuer, date, image, link }) => {
   return (
     <div className="certification-card">
       <img src={image} alt={`${title} certification`} className="certification-image" />
@@ -11,7 +9,7 @@ const CertificationCard = ({ title, issuer, date, image,link }) => {
         <h3>{title}</h3>
         <p>{issuer}</p>
         <p>{date}</p>
-        <a href={link}>View</a>
+        <a href={link} target="_blank" rel="noopener noreferrer">View</a>
       </div>
     </div>
   );

@@ -6,11 +6,12 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Certifications from './Components/Certifications'
 import MiniProjects from './Components/Miniprojects'
+import { BrowserRouter } from 'react-router-dom'
 
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <NavigationBar />  
       <Home />
       <Projects />
@@ -18,7 +19,7 @@ function App() {
       <Certifications />
       <Contact />
       <Footer />
-    </>
+    </BrowserRouter>
   )
 }
 

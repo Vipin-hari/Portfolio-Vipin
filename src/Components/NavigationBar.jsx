@@ -12,7 +12,7 @@ function NavigationBar() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/cv.pdf'; // Make sure this path points to your CV file in the public directory
+    link.href = '/cv.pdf'; 
     link.download = 'cv.pdf';
     document.body.appendChild(link);
     link.click();
@@ -32,6 +32,9 @@ function NavigationBar() {
           </li>
           <li className="nav-item">
             <Link to="projects" smooth={true} duration={1000} onClick={toggleMenu}>Projects</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="mini-projects" smooth={true} duration={1000} onClick={toggleMenu}>Mini-Projects</Link>
           </li>
           <li className="nav-item">
             <Link to="contact" smooth={true} duration={1000} onClick={toggleMenu}>Contact</Link>

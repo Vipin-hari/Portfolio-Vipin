@@ -1,12 +1,15 @@
 .mini-projects-section {
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #d9d9d9;
+    margin-top: 20px;
   }
   
   .mini-projects-section h2 {
     text-align: center;
-    color: #333;
+    color: #000000;
     margin-bottom: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: light 500;
   }
   
   .mini-projects-container {

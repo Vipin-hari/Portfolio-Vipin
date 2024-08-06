@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Full Stack development",
+    "title": "Frontend dev",
     "issuer": "Coursera",
-    "date": "January 2022",
+    "date": "May 2024",
     "link":"https://coursera.org/verify/EU4E8ZT9VG4W",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGC8nMFRYbEAVqj3WJrL0UsSMNJ3JMN9z4HQaaVUo_0zTDyRCRe14sXwttMHUzvD-_FoM&usqp=CAU"
   },
   {
     "id": 2,
-    "title": "React Development",
-    "issuer": "Udemy",
-    "date": "March 2022",
-    "link":"https://coursera.org/verify/EU4E8ZT9VG4W",
+    "title": "React Basics",
+    "issuer": "Coursera",
+    "date": "March 2024",
+    "link":"https://www.coursera.org/account/accomplishments/verify/3CQ87H868HAP",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3YraeeRnBhf1Sd-QQndtiCYLL5RTFWDhvjcooa9c8NqWeU6D0vP3x-3l1bfX5vskcToE&usqp=CAU"
   },
   {
     "id": 3,
-    "title": "JavaScript Mastery",
-    "issuer": "Pluralsight",
-    "date": "June 2022",
-    "link":"https://coursera.org/verify/EU4E8ZT9VG4W",
+    "title": "Version Control",
+    "issuer": "Coursera",
+    "date": "November 2023",
+    "link":"https://www.coursera.org/account/accomplishments/verify/2QNRB6WHZJML",
     "image": "https://static.vecteezy.com/system/resources/thumbnails/016/895/710/small_2x/git-branch-icon-line-isolated-on-white-background-black-flat-thin-icon-on-modern-outline-style-linear-symbol-and-editable-stroke-simple-and-pixel-perfect-stroke-illustration-vector.jpg"
   }
 ]
