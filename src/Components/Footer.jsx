@@ -36,9 +36,11 @@ function Footer() {
           <h3>Quick Links</h3>
           <ul>
             <li><Link to="home" smooth={true} duration={1000}>Home</Link></li>
-            <li><Link to="about" smooth={true} duration={1000}>About</Link></li>
+            <li><Link to="skills" smooth={true} duration={1000}>Skills</Link></li>
+            {/* <li><Link to="about" smooth={true} duration={1000}>About</Link></li> */}
             <li><Link to="projects" smooth={true} duration={1000}>Projects</Link></li>
             <li><Link to="mini-projects" smooth={true} duration={1000}>Mini-Projects</Link></li>
+            <li><Link to="certifications" smooth={true} duration={1000}>My Certifications</Link></li>
             <li><Link to="contact" smooth={true} duration={1000}>Contact</Link></li>
           </ul>
         </div>

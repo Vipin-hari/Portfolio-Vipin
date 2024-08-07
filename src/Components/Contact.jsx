@@ -1,7 +1,7 @@
-// ContactForm.jsx
-
 import React, { useState } from 'react';
 import '../CSS/Contact.css';
+import emailjs from 'emailjs-com';
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -16,10 +16,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to backend or email)
-    console.log('Form submitted:', formData);
-    // Reset form fields
-    setFormData({ name: '', email: '', message: '' });
+
+    emailjs.sendForm('service_qssdikp', 'template_xqrag3a', e.target, '40p04GFmW9veGuY5A')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+        // Reset form fields
+        setFormData({ name: '', email: '', message: '' });
+      }, (error) => {
+        console.log('Email sending error:', error.text);
+      });
   };
 
   return (

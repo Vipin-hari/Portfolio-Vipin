@@ -37,6 +37,9 @@ function NavigationBar() {
             <Link to="mini-projects" smooth={true} duration={1000} onClick={toggleMenu}>Mini-Projects</Link>
           </li>
           <li className="nav-item">
+            <Link to="certifications" smooth={true} duration={1000} onClick={toggleMenu}>Certifications</Link>
+          </li>
+          <li className="nav-item">
             <Link to="contact" smooth={true} duration={1000} onClick={toggleMenu}>Contact</Link>
           </li>
           <li className="nav-item nav-btn">

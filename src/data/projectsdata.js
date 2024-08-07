@@ -33,6 +33,7 @@ export const projectsData = [
       title: "CRM",
       tech: "Python Flask, SqlAlchemy",
       image: crm,
+      description:"Customer relationship Management (CRM) system is designed to manage and analyze customer interactions and data throughout the customer lifecycle, improving relationships and driving sales growth.",
     },
   ];
   

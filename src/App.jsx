@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Certifications from './Components/Certifications'
 import MiniProjects from './Components/Miniprojects'
 import { BrowserRouter } from 'react-router-dom'
+import AboutSkills from './Components/AboutSkills'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <NavigationBar />  
       <Home />
+      <AboutSkills />
       <Projects />
       <MiniProjects />
       <Certifications />

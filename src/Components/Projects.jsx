@@ -7,7 +7,7 @@ import '../CSS/Projects.css'
 function Projects() {
   return (
     <div id="projects" className="projects-container">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className="projects-list">
         {projectsData.map((project, index) => (
           <ProjectCard key={project.id} project={project} reverse={index % 2 !== 0} />

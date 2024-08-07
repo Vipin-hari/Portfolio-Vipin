@@ -1,19 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../CSS/mini.css';
 
 const MiniProjects = () => {
   const projects = [
     {
-      title: 'Project One',
-      description: 'A brief description of what this project does.',
+      title: 'To-Do App',
+      description: 'A to-do app helps to organize, track, and complete tasks efficiently and boosting time management.',
       technologies: 'HTML, CSS, JavaScript',
-      repoLink: 'http://github.com/yourusername/project-one'
+      repoLink: 'https://github.com/Vipin-hari/TO-Do.git'
     },
     {
-      title: 'Project Two',
-      description: 'A brief description of what this project does.',
-      technologies: 'React, Node.js, Express',
-      repoLink: 'http://github.com/yourusername/project-two'
+      title: 'Live Weather App',
+      description: 'A live weather app provides real-time updates, forecasts, and alerts, helping users stay informed.',
+      technologies: 'React JS, Axios, weather API',
+      repoLink: 'https://github.com/Vipin-hari/Live-Weather-React.git'
+    },
+    {
+      title: 'Blog Frontend',
+      description: 'A blog frontend built with React JS that offers a dynamic and responsive user interface for reading and managing posts.',
+      technologies: 'React JS, Bootstrap',
+      repoLink: 'https://github.com/Vipin-hari/Blog.git'
     },
     // Add more projects as needed
   ];
@@ -24,10 +31,12 @@ const MiniProjects = () => {
       <div className="mini-projects-container">
         {projects.map((project, index) => (
           <div className="mini-project-card" key={index}>
-            <h3>{project.title}</h3>
+            <h3 style={{color:'#ff2f00'}}>{project.title}</h3>
             <p>{project.description}</p>
             <p><strong>Technologies:</strong> {project.technologies}</p>
-            <a href={project.repoLink} target="_blank" rel="noopener noreferrer">View Repository</a>
+            <Link to={project.repoLink } target="_blank" rel="noopener noreferrer" className='view-repo'>
+              View Repository
+            </Link>
           </div>
         ))}
       </div>

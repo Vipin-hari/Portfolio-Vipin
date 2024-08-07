@@ -78,6 +78,8 @@ drop-shadow(-1px -1px 0 black); */
     margin-top: 1rem;
     display: flex;
     gap: 1rem;
+    display: flex;
+    justify-content: flex-start;
   }
   
   /* Icon styling */
@@ -113,6 +115,8 @@ drop-shadow(-1px -1px 0 black); */
   }
     .text-section {
       padding: 1rem;
+        margin-bottom: -13px;
+        margin-top: -74px;
     }
   
     .profile-image {
@@ -127,14 +131,18 @@ drop-shadow(-1px -1px 0 black); */
         width: 80%;
         height: auto;
         border-bottom-right-radius: 90%;
-        border-bottom-left-radius: 90px; /* Adjust this as needed */
-        object-fit: cover; /* Ensures the image covers the area */
+        border-bottom-left-radius: 90px; 
+        object-fit: cover; 
       }
       #home{
         height: 100vh;
       }
       .profile-image{
         height: 80%;
+      }
+      .social-icons{
+        /* display: flex; */
+    justify-content: center;
       }
   }
   

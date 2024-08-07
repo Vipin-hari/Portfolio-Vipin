@@ -10,7 +10,7 @@ function ProjectCard({ project, reverse }) {
         <img src={project.image} alt={project.title} className="project-image" />
       </div>
       <div className="project-details">
-        <h2>{project.title}</h2>
+        <h2 style={{color:'#ff2f00'}}>{project.title}</h2>
         <p>{project.description}</p>
         <p><strong>TECH USED:</strong> {project.tech}</p>
         <Link to={project.repo} className="project-link">Repository</Link>
