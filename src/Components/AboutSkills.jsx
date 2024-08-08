@@ -1,15 +1,16 @@
+// src/components/AboutSkills.jsx
 import React from 'react';
 import '../CSS/AboutSkills.css';
 
 const AboutSkills = () => {
     const skills = [
-        { icon: 'fab fa-html5' },
-        { icon: 'fab fa-css3-alt' },
-        { icon: 'fab fa-js' },
-        { icon: 'fab fa-react' },
-        { icon: 'fab fa-node-js' },
-        { icon: 'fab fa-python' },
-        { icon: "fas fa-database" } 
+        { icon: 'fab fa-html5', name: 'HTML5' },
+        { icon: 'fab fa-css3-alt', name: 'CSS3' },
+        { icon: 'fab fa-js', name: 'JavaScript' },
+        { icon: 'fab fa-react', name: 'React' },
+        { icon: 'fab fa-node-js', name: 'Node.js' },
+        { icon: 'fab fa-python', name: 'Python' },
+        { icon: 'fas fa-database', name: 'SQL' }
     ];
 
     return (
@@ -24,8 +25,9 @@ const AboutSkills = () => {
                     <h3>Skills</h3>
                     <ul>
                         {skills.map((skill, index) => (
-                            <li key={index}>
+                            <li key={index} className="skill-item">
                                 <i className={`${skill.icon} icon`}></i>
+                                <span className="skill-name">{skill.name}</span>
                             </li>
                         ))}
                     </ul>

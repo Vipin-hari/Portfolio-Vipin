@@ -22,7 +22,6 @@ const MiniProjects = () => {
       technologies: 'React JS, Bootstrap',
       repoLink: 'https://github.com/Vipin-hari/Blog.git'
     },
-    // Add more projects as needed
   ];
 
   return (
@@ -31,7 +30,7 @@ const MiniProjects = () => {
       <div className="mini-projects-container">
         {projects.map((project, index) => (
           <div className="mini-project-card" key={index}>
-            <h3 style={{color:'#ff2f00'}}>{project.title}</h3>
+            <h3 style={{color:'#ff2f00'}} className='mini-title'>{project.title}</h3>
             <p>{project.description}</p>
             <p><strong>Technologies:</strong> {project.technologies}</p>
             <Link to={project.repoLink } target="_blank" rel="noopener noreferrer" className='view-repo'>

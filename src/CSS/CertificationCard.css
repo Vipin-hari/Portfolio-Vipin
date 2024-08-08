@@ -39,11 +39,12 @@
 }
 
 .certification-info a {
-  color: #007BFF;
+  color: #ff2f00;
   text-decoration: none;
   margin-top: 1rem;
   display: inline-block;
   transition: color 0.3s, transform 0.3s;
+  font-weight: 700;
 }
 
 .certification-info a:hover {

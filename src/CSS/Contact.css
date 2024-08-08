@@ -19,8 +19,9 @@
 .contact-form label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #666;
-  font-size: larger;
+  color: #1c1b1b;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contact-form input,

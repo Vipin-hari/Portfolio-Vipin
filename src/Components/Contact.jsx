@@ -20,7 +20,7 @@ const Contact = () => {
     emailjs.sendForm('service_qssdikp', 'template_xqrag3a', e.target, '40p04GFmW9veGuY5A')
       .then((result) => {
         console.log('Email sent successfully:', result.text);
-        // Reset form fields
+        
         setFormData({ name: '', email: '', message: '' });
       }, (error) => {
         console.log('Email sending error:', error.text);
@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div className="contact-form" id='contact'>
-      <h2>Contact Me</h2>
+      <h2>Leave a Message</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input

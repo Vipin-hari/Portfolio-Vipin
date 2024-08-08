@@ -71,7 +71,7 @@
   color:aliceblue; /* Default link color */
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s, text-decoration 0.3s;
+  transition: color 0.3s, text-decoration 0.3s, background-color 0.3s;
   background-color:#ff2f00;
   padding: 8px;
   border-radius: 2px;

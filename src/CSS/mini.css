@@ -11,6 +11,10 @@
     font-family: 'Merriweather', serif;
     font-weight: light 500;
   }
+  .mini-title{
+    font-family: 'Merriweather', serif;
+    font-weight: light 500
+  }
   .view-repo{
     text-decoration: none;
     transition: transform 0.3s;
@@ -51,10 +55,11 @@
   }
   
   .mini-project-card a {
-    color: #007BFF;
+    color: #ff2f00;
     text-decoration: none;
     margin-top: 1rem;
     display: inline-block;
+    font-weight: 700;
   }
   
   
