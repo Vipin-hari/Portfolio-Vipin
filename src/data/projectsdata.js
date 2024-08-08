@@ -9,7 +9,7 @@ export const projectsData = [
       title: "WeFooDo - A food donation application",
       tech: "React JS, Firebase",
       image: Wefoodo,
-      epo:"https://github.com/Vipin-hari/WeFoodDo-ngo.git",
+      repo:"https://github.com/Vipin-hari/WeFoodDo-ngo.git",
       description:"WeFoodo is a food donation application designed to connect NGOs, charities, and donors to prevent food wastage and increase the efficiency of food distribution to those in need. "
     },
     {
@@ -33,6 +33,7 @@ export const projectsData = [
       title: "CRM",
       tech: "Python Flask, SqlAlchemy",
       image: crm,
+      repo:"https://github.com/Vipin-hari/CRM.git",
       description:"Customer relationship Management (CRM) system is designed to manage and analyze customer interactions and data throughout the customer lifecycle, improving relationships and driving sales growth.",
     },
   ];
