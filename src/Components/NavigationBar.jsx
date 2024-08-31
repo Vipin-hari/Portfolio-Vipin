@@ -12,8 +12,8 @@ function NavigationBar() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/cv.pdf'; 
-    link.download = 'cv.pdf';
+    link.href = '/Vipin-CV.pdf'; 
+    link.download = 'Vipin-CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
